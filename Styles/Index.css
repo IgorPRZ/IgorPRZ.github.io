@@ -1,0 +1,13 @@
+body {
+    background-color: #28282B;
+}
+
+div {
+    background-color: white;    
+    border: 1px solid black;
+    padding: 50px;
+    margin: 10px 50px 10px;
+    position: fixed;
+    margin-top: 10em;
+    box-shadow: 0 0 1em black;
+}
