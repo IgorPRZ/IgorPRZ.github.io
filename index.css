@@ -97,6 +97,7 @@ body{
     margin-top: 1em;
     align-items: flex-end;
     justify-content: end;
+    margin-bottom: 2em;
 }
 
 .left-container .left-container-top span{
