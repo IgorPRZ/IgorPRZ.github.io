@@ -1,0 +1,159 @@
+body{
+    background-image: linear-gradient(to right top, #003554, #034c7e, #2362a9, #4a77d4, #788bff);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Roboto Slab', serif;
+}
+
+.right-container{
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    width: 20%;
+    height:100vh;
+    border-right: 1px solid transparent;
+    /*box-shadow: inset 0 0 1em transparent, 0 0 0.2em white;*/
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.right-container p{
+  text-align: center;
+  color: white;
+}
+
+.right-container .container-icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 20px;
+    font-size: 3em;
+    color: white;
+    margin-top: 0.5em;
+}
+
+.right-container .container-icons i:hover{
+  color: #007dbb;
+  cursor: pointer;
+}
+
+.right-container #NameId{
+    text-align: center;
+    font-size: 1.3em;
+    color: white;
+    margin-top: 1em;
+}
+
+.right-container ul{
+    color: white;
+
+}
+
+.right-container .igor_image{
+  width: 250px;
+  height: 25em;
+  margin-top: 1em;
+  border-radius: 1em;
+}
+
+.right-container ul li{
+    margin: 15px;
+    
+}
+
+.left-container{
+    background-color: transparent;
+    width: 80%;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.left-container p{
+  color: white;
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.8em;
+}
+
+.left-container h1{
+  color: white;
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.7m;
+}
+
+.left-container .left-container-top{
+    height: 10%;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    margin-top: 1em;
+    align-items: flex-end;
+    justify-content: end;
+}
+
+.left-container .left-container-top span{
+  margin-bottom: 0.8em;
+}
+
+.left-container .left-container-top .container-top-contact{
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+.left-container .left-container-top .container-top-contact span{
+  margin-bottom: 0.8em;
+}
+
+.left-container .left-container-top span{
+    color: white;
+    width: 100%;
+    margin-left: 2em;
+    font-size: 1em;
+}
+
+.left-container .left-container-top span i{
+    font-size: 1.5em;
+    text-align: center;
+    margin-right: 0.8em;
+}
+
+.left-container .left-container-top a{
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+    margin-right: 3em;
+}
+
+.left-container .left-container-top #githubIcon:hover{
+    color: black;
+    transform: scale(1.3);
+}
+
+.left-container .left-container-top #linkedinIcon:hover{
+    color: #007dbb;
+    transform: scale(1.3);
+}
+
+
+
+.left-container .container-projects{
+  display: flex;
+  flex-direction: row;
+}
+
+.left-container .container-projects .card-custom{
+  width: 18em;
+  color: black;
+  font-family: 'Roboto Slab', serif;
+}
+
